@@ -5,7 +5,6 @@
         </h2>
     </x-slot>
 
-    {{-- Pass Laravel user data to JavaScript --}}
     <script>
         window.Laravel = {!! json_encode([
             'user' => [
